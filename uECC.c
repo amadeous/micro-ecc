@@ -869,7 +869,7 @@ static void EccPoint_add(uECC_word_t * result,
     uECC_word_t Py[uECC_MAX_WORDS];
     uECC_word_t Qx[uECC_MAX_WORDS];
     uECC_word_t Qy[uECC_MAX_WORDS];
-    uECC_word_t z[uECC_MAX_WORDS]
+    uECC_word_t z[uECC_MAX_WORDS];
     wordcount_t num_words = curve->num_words;
 
     /* Get P = (Px, Py) and Q = (Qx, Qy) */
